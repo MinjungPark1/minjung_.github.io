@@ -1,8 +1,6 @@
 *{
     box-sizing: border-box;
 }
-
-
 body{
     /*max-width: 890px;*/
     padding:0px;
@@ -50,7 +48,6 @@ a{
 .bottomleft{
     float:left;
     width:45%;
-    margin: 0;
     
     /*background:lightcoral;*/
 }
@@ -80,13 +77,10 @@ a{
     font-size: 1.1rem;
     letter-spacing: 0.1rem;
     text-decoration: none;
-    color: rgb(31, 31, 31);
+    color: rgb(24, 24, 24);
     padding-top: 2.6rem;
     text-decoration:none;
 }
-
-
-
 
 
 .bottomright{
@@ -134,155 +128,150 @@ a{
 
 
 
-.publicationcontents{
-    width: 80%;
+
+
+.projects{
+    width: 92%;
     height: auto;
-   /* background-color: rgb(133, 133, 172);*/
-    padding-top: 5rem;
+    /*background-color: rgb(133, 133, 172);*/
+    
+    
+    
+   /* justify-content: space-between;*/
+    padding-top:8rem;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    
+    
+    
+
+    
+}
+
+.flexbox{
+    
     display: flex;
     flex-wrap: wrap;
-    margin: 0px auto;
-    
-
-    
-}
-
-
-.publicationinfo{
-    
-    width: 25%;
-    height: auto;
-    /*background-color: burlywood;*/
-    
+    gap:0.4rem;
 
 }
 
-.publicationinfo h1{
-    text-align: right;
-    font-size: 1.15rem;    
-    font-family: 'Poppins', sans-serif;
-    color: rgb(170, 170, 170);
-    font-weight:500;
-    margin-bottom: 1.35rem;
-    margin-right: 3.5rem;
+
+.pro1{
+    margin:0px;
+    background-image: url(../images/rewind.png);
+    border-radius: 0.375rem;
+    aspect-ratio: 16 / 9; 
+    /*padding-top: calc(49.5% / 16 * 9);*/
    
+    width: 49.5%;
+    background-size: cover;
+    background-repeat: no-repeat;
     
-    
+    margin-bottom:0.4rem;
+}
+
+.pro2{
+    margin:0px;
+    background-image: url(../images/scoop.png);
+    border-radius: 0.375rem;
+    aspect-ratio: 16 / 9; 
+    /*padding-top: calc(49.5% / 16 * 9);*/
    
+    width: 49.5%;
+    background-size: cover;
+    background-repeat: no-repeat;
     
-
+    margin-bottom:0.4rem;
 }
 
-
-
-.publication{
+.pro3{
+    margin:0px;
+    background-image: url(../images/donot.png);
+    border-radius: 0.375rem;
+    aspect-ratio: 16 / 9; 
+    /*padding-top: calc(49.5% / 16 * 9);*/
+   
+    width: 49.5%;
+    background-size: cover;
+    background-repeat: no-repeat;
     
-    width: 75%;
-    height: auto;
-    /*background:lightblue;*/
+    margin-bottom:0.4rem;
+}
+
+.pro4{
+    margin:0px;
+    background-image: url(../images/moim.png);
+    border-radius: 0.375rem;
+    aspect-ratio: 16 / 9; 
+    /*padding-top: calc(49.5% / 16 * 9);*/
+   
+    width: 49.5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    margin-bottom:0.4rem;
+}
+
+.pro5{
+    margin:0px;
+    background-image: url(../images/guardening.png);
+    border-radius: 0.375rem;
+    aspect-ratio: 16 / 9; 
+    /*padding-top: calc(49.5% / 16 * 9);*/
+   
+    width: 49.5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    margin-bottom:0.4rem;
+}
+
+
+
+.overlay{
+    height: 100%;
+    opacity: 0;
+    transition: 0.6s ease;
+    background-color:rgb(7, 7, 7);
+    border-radius: 0.375rem;
+    text-align : center;
+}
+
+.pro1:hover .overlay{
+    
+    opacity: 0.9;
+    border-radius: 0.375rem;
+    
+    
+    color: rgb(240, 35, 137);
+    vertical-align: middle; 
+    text-align : center;
+    
     
 }
 
-.publication h1{
+.pro2:hover .overlay{
+    
+    opacity: 0.9;
+    border-radius: 0.375rem;
     
     
-    margin-bottom: 1rem;
-    font-size: 1.15rem;    
-    font-family: 'Poppins', sans-serif;
-    color: rgb(229, 160, 171);
-    border-bottom: solid 1px #e8e8e8;
+    color: rgb(240, 35, 137);
+    vertical-align: middle; 
+    text-align : center;
     
-
-}
-
-.paper{
- 
-    margin-bottom: 1.4rem;
     
 }
 
 
-.paper h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    font-weight:500;
-    color: rgb(32, 32, 32);
-
-}
-
-.paper h3{
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.85rem;
-    font-weight:300;
-    color: rgb(32, 32, 32);
-
-}
-
-.paper h4{
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.85rem;
-    font-weight:300;
-    color: rgb(32, 32, 32);
-
-}
-
-.paper p{
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.7rem;
-    font-weight:300;
-}
 
 
 
-.button1 {
-    background-color: rgb(233, 233, 233); 
-    border-radius: 0.2rem;
-    border: 0.1rem solid rgb(223, 223, 223);
-    font-weight: 400;
-    margin-bottom: 1.5rem;
-}
-  
-.button1:hover {
-    background-color: rgb(247, 70, 158);
-    border: 0.1rem solid rgb(247, 70, 158);
-    color: white;
-}
-
-span.me {
-    color: rgb(247, 70, 158);
-    font-weight: 500;
-}
 
 
 
-.end{
-    width:92%;
 
-    
-    margin: 0px auto;
-    margin-bottom: 2rem;
-
-    float: center;
-
-}
-
-.end h4{
-    /*background-color: blanchedalmond;*/
-    float: right;
-    
-    color:  rgb(78, 78, 78);
-    font-size: 0.6rem;
-    font-weight:300;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;   
-    margin-top: 5.5rem;  
-
-}
-
-.end h5{
-    display: none;
-}
 
 
 
@@ -290,20 +279,16 @@ span.me {
 
 
 @media (max-width: 768px) {
+
     body{
         overflow-x: hidden;
+        background-color: rgb(12, 12, 12);
     }
 
     nav{
         overflow-x: hidden;
     }
-
-    
-    .header{
-        /*background-color: #5C6BC0;*/
-        width: 88%;
-    }
-      
+   
     .bars {
         position: absolute;
         height: 13px;
@@ -318,11 +303,11 @@ span.me {
         display: block;
         width: 20px;
         height: 2px;
-        background: black;
+        background: rgb(255, 255, 255);
     }
       
     .bar-2, .bar-3 {
-        margin-top: 3px;
+        margin-top: 5px;
     }
       
     .bar-1, .bar-3 {
@@ -336,8 +321,8 @@ span.me {
         position: absolute;
         top: -220px;
         right: -200px;
-        background: rgba(255, 67, 173, 0.2);
-        box-shadow: 0px 0px 5px rgba(255, 67, 173, 0.2);
+        background: rgba(214, 78, 155, 0.39);
+        box-shadow: 0px 0px 5px rgba(255, 0, 144, 0.521);
         width: 350px;
         height: 450px;
         border-bottom-left-radius: 200px;
@@ -387,102 +372,80 @@ span.me {
         letter-spacing: 2px;
     }
 
-
-
-    
-
     .bottomleft h1 a{
         font-size: 1.25rem;
-        margin-top: 0;
+        /*font-size: calc((2.7 - 1) * 1.2vh + 1rem);*/
+    
     }
 
+    .bottomleft h1 a:hover{
+    
+        color:rgb(255, 255, 255);
+    }
+
+
     .bottomright a{
-        
-        
+        text-decoration:none;
+        color: rgb(255, 255, 255);
         
         font-weight: 400;
     }
 
-    
-
-    
-   
-
-    
-    .publicationcontents{
-        width: 80%;
-        height: auto;
-        padding-top: 3rem;
-       
-        margin: 0px auto;
-        
-        flex-grow: 0;
-
+    .bottom{
+        width: 82%;
     }
+
+
+    .introself{
+        /*background-color: sandybrown;*/
         
+        margin-top: 20px;
+        margin-bottom:20px;
+    }
     
-    .publicationinfo{
-        
-        /*background:lightblue;*/
+    
+
+    .projects{
+    width: 88%;
+    height: auto;
+
+    /*background-color: rgb(133, 133, 172);*/
+    
+    
+    padding-top:7rem;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    }
+
+    
+  
+
+    .pro1{
         width: 100%;
-        margin-bottom: 1.4rem;
-         
-    }
-    .publicationinfo h1{
-        text-align: left;
-        font-size:0.92rem;
-
     }
 
-    
-    .publication{
-    
+    .pro2{
         width: 100%;
-        height: auto;
-        /*background:lightblue;*/
-    
     }
 
-    .publication h1{
-        font-size:0.92rem;
+    .pro3{
+        width: 100%;
+    }
+    .pro4{
+        width: 100%;
     }
 
-    .paper h2{
-        font-size:0.8rem;
+    .pro5{
+        width: 100%;
     }
 
-    .paper h3{
-        font-size:0.68rem;
+    .pro6{
+        width: 100%;
     }
 
-    .paper h4{
-        font-size:0.68rem;
-    }
-
-    .paper p{
-        font-size: 0.56rem;
-    }
-
-    .end h4{
-        display: none;
-    }
-
-    .end h5{
-        display: block;
-        float: right;
-        font-size: 0.3rem;
-
-        color:  rgb(124, 124, 124);
-    
-        font-weight:300;
-        font-family: 'Poppins', sans-serif;
-        letter-spacing: 0rem;   
-
-    }
 
     
 
-    
 
 
 
@@ -490,3 +453,26 @@ span.me {
 
 
 
+
+.end{
+    width:92%;
+    /*background-color: aqua;*/
+    margin: 0px auto;
+    margin-bottom: 2rem;
+
+    float: center;
+
+}
+
+.end h4{
+    /*background-color: blanchedalmond;*/
+    float: right;
+    color:  rgb(78, 78, 78);
+    font-size: 0.6rem;
+    font-weight:300;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;   
+    margin-top: 5.5rem;  
+    
+
+}

@@ -47,7 +47,7 @@ a{
 
 .bottomleft{
     float:left;
-    width:45%;
+    
     
     /*background:lightcoral;*/
 }
@@ -64,7 +64,7 @@ a{
     color:rgb(247, 23, 135);
     padding-top: 2.6rem;
     text-decoration:none;
-    /*background:hotpink;*/
+    
 }
 
 

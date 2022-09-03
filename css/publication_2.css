@@ -111,14 +111,14 @@ a{
 .bottomright a{
     text-decoration:none;
     color: rgb(56, 56, 56);
-    font-weight: 300;
+    font-weight: 400;
     margin: 1.3rem;
     
     
 }
 
 .bottomright a:hover{
-    color: rgb(247, 70, 158);
+    color: rgb(247, 23, 135);
     font-weight: 500;
 }
 
@@ -135,7 +135,7 @@ a{
 
 
 .publicationcontents{
-    width: 80%;
+    width: 90%;
     height: auto;
    /* background-color: rgb(133, 133, 172);*/
     padding-top: 5rem;
@@ -150,7 +150,7 @@ a{
 
 .publicationinfo{
     
-    width: 25%;
+    width: 30%;
     height: auto;
     /*background-color: burlywood;*/
     
@@ -161,10 +161,10 @@ a{
     text-align: right;
     font-size: 1.15rem;    
     font-family: 'Poppins', sans-serif;
-    color: rgb(170, 170, 170);
+    color: rgb(148, 148, 148);
     font-weight:500;
-    margin-bottom: 1.35rem;
-    margin-right: 3.5rem;
+    
+    margin-right: 4.5rem;
    
     
     
@@ -177,8 +177,9 @@ a{
 
 .publication{
     
-    width: 75%;
+    width: 70%;
     height: auto;
+    margin-bottom: 1.5rem;
     /*background:lightblue;*/
     
 }
@@ -245,14 +246,21 @@ a{
 }
   
 .button1:hover {
-    background-color: rgb(247, 70, 158);
-    border: 0.1rem solid rgb(247, 70, 158);
+    background-color: rgb(247, 23, 135);
+    border: 0.1rem solid rgb(247, 23, 135);
     color: white;
 }
 
 span.me {
-    color: rgb(247, 70, 158);
+    color: rgb(247, 23, 135);
     font-weight: 500;
+    
+}
+
+span.select {
+    color: rgb(56, 56, 56);
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 
@@ -489,5 +497,15 @@ span.me {
 
 }
 
+@media(min-width: 1600px) {
+    .publicationcontents{
+        width: 1250px;
+        
+        /*background-color: rgb(164, 164, 199);*/
+    }
 
+   
+
+
+}
 

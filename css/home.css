@@ -566,12 +566,13 @@ span.bold{
 
 }
 
-@media(min-width:1600px){
+@media(min-width:1920px){
     .body{
+        margin: auto;
         width: 1200px;
         justify-content: center;
         align-items: center;
-        background-color: rgb(164, 164, 199);
+        /*background-color: rgb(164, 164, 199);*/
     }
 
 }

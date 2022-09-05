@@ -131,14 +131,14 @@ a{
 
 
 .projects{
-    width: 92%;
+    width: 79%;
     height: auto;
     /*background-color: rgb(133, 133, 172);*/
     
     
     
    /* justify-content: space-between;*/
-    padding-top:8rem;
+    padding-top:9.5rem;
     margin: 0px auto;
     margin-bottom: 0px;
     
@@ -153,6 +153,14 @@ a{
     display: flex;
     flex-wrap: wrap;
     gap:0.4rem;
+    
+    border-radius: 0.23rem;
+    padding: 1rem;
+
+}
+
+.flexbox:hover{
+    background-color: #ebebeb;
 
 }
 
@@ -160,16 +168,58 @@ a{
 .pro1{
     margin:0px;
     background-image: url(../images/rewind.png);
-    border-radius: 0.175rem;
+    border-radius: 0.07rem;
     aspect-ratio: 16 / 9; 
     /*padding-top: calc(49.5% / 16 * 9);*/
    
-    width: 49.5%;
+    width: 60%;
     background-size: cover;
     background-repeat: no-repeat;
     
     margin-bottom:0.4rem;
 }
+
+.des{
+    width: 39%;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    /*background-color: pink;*/
+    
+}
+
+.des h1{
+    color: rgb(29, 29, 29);
+    margin-bottom: 1rem;
+    letter-spacing: 0.15rem;
+    font-size: 1.25rem;
+    line-height: 0rem;
+    font-weight:500;
+    font-family: 'Poppins', sans-serif; 
+
+}
+
+.des h2{
+    color: rgb(29, 29, 29);
+    margin-bottom: 1rem;
+    letter-spacing: 0.15rem;
+    font-size: 1.0rem;
+    margin-bottom: 0;
+    
+    font-weight:400;
+    font-family: 'Poppins', sans-serif; 
+
+}
+
+.des h3{
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    color: rgb(29, 29, 29);
+    font-weight:300;
+    font-family: 'Poppins', sans-serif;
+
+}
+
 
 .pro2{
     margin:0px;
@@ -432,6 +482,15 @@ span.select {
     margin: 0px auto;
     margin-bottom: 0px;
     }
+
+
+    .des{
+        width: 100%;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+
 
     
   

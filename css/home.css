@@ -132,7 +132,7 @@ a{
     
     margin: 0px auto;
 
-    margin-top:6rem;
+    margin-top:3rem;
     
     
 }
@@ -299,6 +299,7 @@ a{
     
     margin: 0px auto;
     /*background-color: yellow;*/
+    margin-bottom: 5.5rem;
 }
 
 
@@ -372,6 +373,11 @@ span.bold{
     font-weight:500;
     color: rgb(248, 42, 145); 
 
+}
+
+.newsright table tr td a{
+    font-weight:500;
+    color: rgb(248, 42, 145); 
 }
 
 
@@ -547,6 +553,7 @@ span.bold{
 
     table{
         width: 100%;
+
     }
 
     td{
@@ -555,6 +562,26 @@ span.bold{
         text-align: left;
         vertical-align : top;
         font-size: 0.90rem;
+    }
+
+    .detailnews{
+        margin-bottom: 0rem;
+        
+    }
+
+    .endcontact{
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+
+    .end h4{
+        /*background-color: blanchedalmond;*/
+        
+        margin-top: 1rem;
     }
 
    
@@ -596,6 +623,7 @@ span.bold{
 
     .introself{
         margin-bottom:3rem;
+        margin-top: 6rem;
         
         
         width: 100%;
@@ -605,6 +633,16 @@ span.bold{
     .introleft{
         padding-right: 5rem ;
         
+    }
+
+    .detailnews{
+        margin-bottom: 0rem;
+    }
+
+    .end h1{
+        
+        font-size: 2.3rem;
+    
     }
 
 }
@@ -629,6 +667,7 @@ span.bold{
 
 .end h1{
     margin-top:1rem;
+    font-size: 1.8rem;
     
     font-family: 'Poppins', sans-serif;
     font-weight:500;
@@ -661,7 +700,7 @@ span.bold{
 
 }
 
-.endcontact h4{
+.end h4{
     /*background-color: blanchedalmond;*/
     float: right;
     

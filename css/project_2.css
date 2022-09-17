@@ -163,116 +163,78 @@ a{
 
 
 
-.pro1{
-    margin:0px;
-    background-image: url(../images/rewind.png);
-    border-radius: 0.07rem;
-    aspect-ratio: 16 / 9; 
-    /*padding-top: calc(49.5% / 16 * 9);*/
-   
-    width: 60%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    margin-bottom:0.4rem;
-}
 
 .des{
     width: 39%;
-    padding-left: 3rem;
+    padding-left: 1.7rem;
     padding-top: 2rem;
     /*background-color: pink;*/
     
 }
 
 .des h1{
-    color: rgb(29, 29, 29);
+
+    color: rgb(65, 65, 65);
     margin-bottom: 1rem;
-    letter-spacing: 0.15rem;
-    font-size: 1.25rem;
-    line-height: 0rem;
+    letter-spacing: 0.12rem;
+    font-size: 1.75rem;
+    line-height: 2.6rem;
     font-weight:500;
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
+
+    
 
 }
 
 .des h2{
-    color: rgb(29, 29, 29);
-    margin-bottom: 1rem;
-    letter-spacing: 0.15rem;
-    font-size: 1.0rem;
-    margin-bottom: 0;
+   
     
-    font-weight:400;
-    font-family: 'Poppins', sans-serif; 
+
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    font-weight:300;
+    font-size: 0.90rem;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    margin-bottom: 1rem;
+    /*background:hotpink;*/
+    padding: 0px;
+    line-height: 1.45rem;
 
 }
 
 .des h3{
-    padding-top: 0.5rem;
-    font-size: 1rem;
-    letter-spacing: 0.15rem;
-    color: rgb(29, 29, 29);
-    font-weight:300;
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    font-weight:300;
+    font-size: 0.90rem;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+    
+    color: rgb(71, 71, 71);
+    margin-bottom: 1rem;
+    /*background:hotpink;*/
+    padding: 0px;
+    line-height: 1.45rem;
 
 }
 
 
-.pro2{
-    margin:0px;
-    background-image: url(../images/scoop.png);
-    border-radius: 0.175rem;
-    aspect-ratio: 16 / 9; 
-    /*padding-top: calc(49.5% / 16 * 9);*/
-   
-    width: 49.5%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    margin-bottom:0.4rem;
-}
+.des h4{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    font-weight:300;
+    font-size: 0.90rem;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+    color: rgb(247, 70, 158);
+    font-style: italic;
+    margin-bottom: 1rem;
+    /*background:hotpink;*/
+    padding: 0px;
+    line-height: 1.45rem;
 
-.pro3{
-    margin:0px;
-    background-image: url(../images/donot.png);
-    border-radius: 0.175rem;
-    aspect-ratio: 16 / 9; 
-    /*padding-top: calc(49.5% / 16 * 9);*/
-   
-    width: 49.5%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    margin-bottom:0.4rem;
-}
-
-.pro4{
-    margin:0px;
-    background-image: url(../images/moim.png);
-    border-radius: 0.175rem;
-    aspect-ratio: 16 / 9; 
-    /*padding-top: calc(49.5% / 16 * 9);*/
-   
-    width: 49.5%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    margin-bottom:0.4rem;
-}
-
-.pro5{
-    margin:0px;
-    background-image: url(../images/guardening.png);
-    border-radius: 0.175rem;
-    aspect-ratio: 16 / 9; 
-    /*padding-top: calc(49.5% / 16 * 9);*/
-   
-    width: 49.5%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    margin-bottom:0.4rem;
 }
 
 
@@ -480,6 +442,21 @@ span.select {
         border-radius: 0.375rem;
     }
 
+    .endcontact{
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+
+    .end h4{
+        /*background-color: blanchedalmond;*/
+        
+        margin-top: 1rem;
+    }
+
 
     
 
@@ -524,6 +501,11 @@ span.select {
 
 
     }
+    .end h1{
+        
+        font-size: 2.3rem;
+    
+    }
 
 }
 
@@ -556,6 +538,7 @@ span.select {
     text-decoration: none;
     /*color: #ff598b;*/
     color:rgb(247, 23, 135);
+    font-size: 1.8rem;
     
     text-decoration:none;
 
@@ -580,7 +563,7 @@ span.select {
 
 }
 
-.endcontact h4{
+.end h4{
     /*background-color: blanchedalmond;*/
     float: right;
     

@@ -293,6 +293,7 @@ span.select {
     text-decoration: none;
     /*color: #ff598b;*/
     color:rgb(247, 23, 135);
+    font-size: 1.8rem;
     
     text-decoration:none;
 
@@ -317,10 +318,9 @@ span.select {
 
 }
 
-.endcontact h4{
+.end h4{
     /*background-color: blanchedalmond;*/
     float: right;
-    
     color:  rgb(78, 78, 78);
     font-size: 0.8rem;
     font-weight:300;
@@ -513,6 +513,9 @@ span.select {
     .paper p{
         font-size: 0.56rem;
     }
+    .end{
+        width:88%;
+    }
 
     .end h4{
         display: none;
@@ -529,6 +532,21 @@ span.select {
         font-family: 'Poppins', sans-serif;
         letter-spacing: 0rem;   
 
+    }
+
+    .endcontact{
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+
+    .end h4{
+        /*background-color: blanchedalmond;*/
+        
+        margin-top: 1rem;
     }
 
     
@@ -577,6 +595,14 @@ span.select {
     .publication{
         margin-top: 3.5rem;
     }
+
+    .end h1{
+        
+        font-size: 2.3rem;
+    
+    }
+
+    
 
    
 

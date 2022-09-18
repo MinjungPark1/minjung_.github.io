@@ -189,13 +189,18 @@ span.select {
     background-image: url(../images/guardening_thumbnail.png);
 }
 
+.pro6{
+    background-image: url(../images/gru_thumbnail.png);
+}
+
+
 
 
 .overlay{
     height: 100%;
     opacity: 0;
     transition: 0.6s ease;
-    background-color:rgba(214, 78, 155, 0.85);
+    background-color:rgba(214, 78, 155, 1);
     color: rgb(27, 27, 27);
     border-radius: 0.175rem;
     font-size: 1rem;

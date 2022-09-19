@@ -131,9 +131,9 @@ a{
 
 
 .projects{
-    width: 79%;
+    width: 70%;
     height: auto;
-    /*background-color: rgb(133, 133, 172);*/
+   /* background-color: rgb(133, 133, 172);*/
     
     
     
@@ -151,21 +151,22 @@ a{
 /*여기부분 조금 바꿈!! -혜수*/
 
 .flexbox{
-    background-color: #ebebeb;
+   
+    
 
 
     display: flex;
     gap: 0.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
     border-radius: 0.23rem;
-    padding: 1rem;
+    
 
 }
 
 .flexbox img{
     
     height: auto;
-    width:60%;
+    width:100%;
     
     border-radius: 0.2rem;
     object-fit: cover;
@@ -173,75 +174,19 @@ a{
 }
 
 
-.des{
-    width: 39%;
-    padding: 1.6rem;
-    /*background-color: pink;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 
 /**/
 
-.des h1{
-
-    color: rgb(65, 65, 65);
-    margin-bottom: 1rem;
-    letter-spacing: 0.12rem;
-    font-size: 1.5rem;
-    line-height: 2.6rem;
-    font-weight:500;
-    font-family: 'Poppins', sans-serif;
-
-    
-
-}
-
-.des h2{
-   
-    
-
-    font-family: 'Poppins', sans-serif;
-    width: 100%;
-    font-weight:500;
-    font-size: 0.90rem;
-    letter-spacing: 0.03rem;
-    text-decoration: none;
-    color: rgb(71, 71, 71);
-    
-    /*background:hotpink;*/
-    padding: 0px;
-    line-height: 0.45rem;
-
-}
-
-.des h3{
-    font-family: 'Poppins', sans-serif;
-    width: 100%;
-    font-weight:300;
-    font-size: 0.90rem;
-    letter-spacing: 0.01rem;
-    text-decoration: none;
-    
-    color: rgb(71, 71, 71);
-    margin-bottom: 1rem;
-    /*background:hotpink;*/
-    padding: 0px;
-    line-height: 1.45rem;
-
-}
-
 
 /*여기부분 조금 바꿈!! -혜수*/
 
-.des_2{
+.des h1{
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    font-weight:300;
-    font-size: 0.90rem;
-    letter-spacing: 0.01rem;
+    font-weight:400;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
     text-decoration: none;
     text-align: end;
     color: rgb(247, 70, 158);
@@ -250,6 +195,7 @@ a{
     /*background:hotpink;*/
     padding: 0px;
     line-height: 1.45rem;
+    margin-bottom: 3.5rem;
     
     vertical-align: text-bottom;
 
@@ -441,14 +387,8 @@ span.select {
         border-radius: 0.1rem;
     }
     
-
-    .endcontact{
-        width: 100%;
-        
-        display: flex;
-        justify-content: space-between;
-        
-        
+    .des h1{
+        font-size: 0.75rem;
     }
 
     .end h4{

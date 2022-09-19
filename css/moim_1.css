@@ -189,7 +189,7 @@ a{
     color: rgb(56, 56, 56);
     
     margin-top: 2rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.5rem;
 
 }
 
@@ -235,14 +235,55 @@ span.me {
 
 
 
+
 .end{
+    border-top: solid 1px #c2c2c2;
     width:92%;
+    
+    margin-bottom: 3rem;
 
     
     margin: 0px auto;
     margin-bottom: 2rem;
+    margin-top: 3rem;
+    
 
     float: center;
+
+}
+
+.end h1{
+    margin-top:1rem;
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    /*color: #ff598b;*/
+    color:rgb(247, 23, 135);
+    font-size: 1.8rem;
+    
+    text-decoration:none;
+
+}
+
+.endcontact{
+    /*background-color: #ca7171;*/
+    margin-top: 1rem;
+    word-spacing: 1rem;
+    
+    
+}
+
+.endcontact a{
+    vertical-align: bottom;
+    color: rgb(110, 110, 110);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    
 
 }
 
@@ -251,21 +292,17 @@ span.me {
     float: right;
     
     color:  rgb(78, 78, 78);
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-weight:300;
     font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;   
-    margin-top: 5.5rem;  
-    margin-bottom: 3rem;
+    letter-spacing: 0.015rem;
+    word-spacing: 0.1rem;   
+    bottom: 0px;
+    
+    
+    
 
 }
-
-.end h5{
-    display: none;
-}
-
-
-
 
 
 
@@ -443,6 +480,10 @@ span.me {
         font-size: 0.56rem;
     }
 
+    .end{
+        width:88%;
+    }
+
     .end h4{
         display: none;
     }
@@ -458,6 +499,21 @@ span.me {
         font-family: 'Poppins', sans-serif;
         letter-spacing: 0rem;   
 
+    }
+
+    .endcontact{
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+
+    .end h4{
+        /*background-color: blanchedalmond;*/
+        
+        margin-top: 1rem;
     }
 
     
